@@ -481,7 +481,7 @@ font-family: 'Roboto';
 /* travel start */
 #travel{
   background: url(../images/travel/map.png);
-  padding: 70px 0px 100px;
+  padding: 70px 0px 0px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -490,12 +490,11 @@ font-family: 'Roboto';
   width: 100%;
   height: auto;
   z-index: -1;
-  position: absolute;
 }
-.travel_head {
+.travel_head, .gallery_head {
   text-align: center;
 }
-.travel_head h2 {
+.travel_head h2, .gallery_head h2 {
   text-transform: uppercase;
   margin: 35px 0px 100px;
 }
@@ -567,10 +566,31 @@ font-family: 'Roboto';
   justify-content: space-around;
   align-items: baseline;
 }
-
 /* travel end */
 
+/* galeery start */
+#gallery{
+  background: #fff;
+  padding: 80px 0px;
+}
+.gallery_img img {
+  float: left;
+  display: block;
+  overflow: hidden;
+  margin: 10px;
+}
+.gallery_1 img, .gallery_4 img{
+ width: 250px;
+}
+.gallery_2 img, .gallery_5 img{
+  width: 360px;
+}
+.gallery_3 img, .gallery_6 img{
+  width: 455px;
+}
 
+
+/* galeery end */
 
 
 
