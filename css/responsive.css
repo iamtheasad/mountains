@@ -70,6 +70,7 @@
 
 /* For 992px */
 @media screen and (max-width:992px){
+
 .call_us {
    float: right;
    margin-top: 40px;
@@ -79,45 +80,72 @@
 
 /* For 768px */
 @media screen and (max-width:768px){
-   nav ul{
-      width: 100%;
-      background-color: #ac5463;
-      overflow: hidden;
-      color: #fff;
-      padding: 0;
-      text-align: center;
-      margin: 0;
-      transition: all 1s ease-in-out;
-    }
-    
-    nav ul li{
-      display: inline-block;
-      padding: 20px;
-    }
-    
-    nav ul li a{
-      text-decoration: none;
-      color: inherit;
-    }
-    
-    nav ul li:hover {
-      background-color: #ac5480;
-    }
-    
-    .menu-bars{
-      width: 100%;
-      background-color: #005c48;
-      text-align: right;
-      box-shadow: border-box;
-      padding: 20px 0px;
-      cursor: pointer;
-      color: #fff;
-      display: none;
-    }
-    
-    .menu-bars .fas{
-      margin-right: 20px;
-    }
+
+.menu ul li {
+   list-style: none;
+   margin-bottom: 0px;
+   padding: 0px 5px;
+}
+.call_us {
+   margin-top: 25px;
+}
+.call_us_btn a {
+   padding: 5px 15px;
+}
+.about_us1, .about_us2 {
+   display: none;
+}
+.aboute_us_content {
+   max-width: unset;
+   text-align: center;
+}
+.sign_up_form input {
+   padding: 5px;
+   width: 200px;
+   height: 35px;
+}
+.sign_up_btn {
+   width: 6em;
+   height: 35px;
+   padding: 7px 3px;
+}
+.sign_up_btn a {
+   font-size: 12px;
+}
+.sign_up_form {
+   margin-bottom: 10px;
+}
+p.sign_up_name input::placeholder, 
+p.sign_up_number input::placeholder {
+ font-size: 12px;
+}
+.indicator {
+   display: none;
+}
+.work_item_no {
+   margin-bottom: none;
+}
+.work_item {
+   display: none;
+}
+.journal_item {
+   width: 50%;
+}
+.work_body {
+   display: flex;
+   flex-wrap: wrap;
+}
+.work_body_bg {
+   width: 50%;
+   margin: 0px;
+}
+.work_icon_white_bg {
+   margin: 2em 5em;
+   width: 200px;
+   height: 200px;
+}
+
+
 }
 
 
