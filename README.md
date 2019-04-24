@@ -1,1 +1,1 @@
-This website is fully Mobile Responsive.
+I am working on this website. Fixing Rexponsive Issues.
