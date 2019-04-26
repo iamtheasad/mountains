@@ -1,159 +1,21 @@
-/* For 1200px */
-@media screen and (max-width:1200px){
-      .indi_1 img {
-      left: 17%;
-      }
-      .indi_2 img {
-      left: 41%;
-      }
-      .indi_3 img {
-      left: 64%;
-      }
-      .indi_row_1 img {
-      left: 8em;
-      }
-      .indi_row_2 img {
-      left: 26em;
-      }
-      .indi_row_3 img {
-      left: 44em;
-      }
-      .indi_row_4 img {
-      left: 62em;
-      }
-      
-      }
-      
-      /* For 1190px */
-      @media screen and (max-width: 1180px) {
-      .indi_1 img {
-      left: 18%;
-      top: 37%;
-      width: 11em;
-      }
-      .indi_2 img {
-      left: 42%;
-      top: 37%;
-      width: 11em;
-      }
-      .indi_3 img {
-      left: 67%;
-      top: 37%;
-      width: 11em;
-      }
-      .indi_row_1 img {
-      left: 11%;
-      }
-      .indi_row_2 img {
-      left: 35%;
-      }
-      .indi_row_3 img {
-      left: 59%;
-      }
-      .indi_row_4 img {
-      left: 83%;
-      }   
-      }
-      
       /* For 1024px */
-      @media screen and (max-width:1024px){
-      .indi_1 img {
-      top: 35%;
-      left: 16%;
-      width: 12em;
-      }
-      .indi_2 img {
-      top: 35%;
-      left: 40.5%;
-      width: 12em;
-      }
-      .indi_3 img {
-      top: 35%;
-      left: 64.5%;
-      width: 12em;
-      }
-      .indi_row_1 img {
-      top: 45%;
-      left: 6em;
-      width: 4em;
-      }
-      .indi_row_2 img {
-      top: 45%;
-      left: 21.5em;
-      width: 4em;
-      }
-      .indi_row_3 img {
-      top: 45%;
-      left: 38em;
-      width: 4em;
-      }
-      .indi_row_4 img{
-      top: 45%;
-      left: 84%;
-      width: 4em;
-      }
       
-      /* For travel section */
-      #travel {
-      padding-bottom: 50em;
-      }
-      .travel_body {
-      position: absolute;
-      z-index: 2;
-      top: 20%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      overflow: hidden;
-      left: 24%;
-      display: block;
-      }
-      .travel_item {
-      width: 50%;
-      float: left;
-      margin-bottom: 36px;
-      overflow: hidden;
-      }
-      .travel_text {
-      width: 50%;
-      }
+      @media screen and (max-width:1024px){
       .call_us {
       margin-top: 35px;
       }
       
-      /* Gallery Section */
-      .gallery_img {
-      width: 50%;
-      float: left;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      }
-      .gallery_img img {
-      width: 29em;
-      height: 30em;
-      } 
-      
       }
       
       /* For 992px */
+
       @media screen and (max-width:992px){
-      
       .call_us {
       float: right;
       margin-top: 40px;
       }
+
       /* Work Section */
-      .indicator {
-      display: none;
-      }
       .work_item_no {
       margin-bottom: none;
       }
@@ -185,13 +47,11 @@
       .ico_bg h2, .ico_bg p {
       margin-top: 2em;
       }
-      .gallery_img img {
-      width: 29em;
-      height: 30em;
-      }
+
       }
       
       /* For 877px */
+
       @media screen and (max-width: 877px){
       .about_us1 img, .about_us2 img {
       display: none;
@@ -199,6 +59,7 @@
       }
       
       /* For 768px */
+
       @media screen and (max-width:768px){
       .header_bg {
       background-color: unset;
@@ -214,7 +75,6 @@
       .logo img {
       display: none;
       }
-      
       .call_us {
       display: none;
       }
@@ -292,9 +152,6 @@
       p.sign_up_number input::placeholder {
       font-size: 12px;
       }
-      .indicator {
-      display: none;
-      }
       .work_item_no {
       margin-bottom: none;
       }
@@ -320,48 +177,11 @@
       width: 200px;
       height: 200px;
       }
-      /* Travel Section */
-      #travel {
-      padding-bottom: 55em;
-      }
-      .taka {
-      padding-top: 1em;
-      padding-bottom: 1em;
-      }
-      .travel_text {
-      width: 65%;
-      }
-      
-      /* Gallery Section */
-      .gallery_img {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      }
-      .gallery_img img {
-      width: 21em;
-      height: 21em;
-      }
-      .travel_body {
-      left: 17%;
-      }
-      
+
       }
       
       /* For 640px */
       @media screen and (max-width: 640px){
-      .gallery_img img {
-      width: 17em;
-      }
-      .travel_content_header_text {
-      left: 36%;
-      }
-      .travel_body {
-      left: 12%;
-      }
       .work_icon_white_bg {
       margin: 0 auto;
       }
@@ -369,6 +189,7 @@
       }
       
       /* For 576px */
+
       @media screen and (max-width: 576px){
       
       /* Journal Section */
@@ -383,32 +204,6 @@
       .work_icon_white_bg {
       margin: 2em 2em;
       }
-      
-      /* Travel Section */
-      #travel {
-      padding-bottom: 126em;
-      }
-      .travel_content_header_text {
-      left: 33%;
-      }
-      .travel_item {
-      width: 100%;
-      }
-      .travel_body {
-      left: 33%;
-      top: 10%;
-      }.travel_text {
-      width: 49%;
-      }
-      .taka {
-      padding-top: 4em;
-      padding-bottom: 1em;
-      }
-      
-      /* Gallery Section */
-      .gallery_img {
-      width: 100%;
-      }
       .our_client_speech {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -417,23 +212,45 @@
       }
       
       }
+
+      /* For 522px */
+
+      @media screen and (max-width: 522px){
+
+      /* Footer Section */
+      .footer_content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center;
+      -webkit-box-align: unset;
+      -ms-flex-align: unset;
+      align-items: unset;
+      }
+      .footer_rights p {
+      font-size: 13px;
+      margin-bottom: 10px;
+      }
+      .footer_social .social_tw, .footer_social .social_vk {
+      padding: 8px;
+      }
+      .footer_social .social_fb {
+      padding: 8px 13px;
+      }
+      .footer_social {
+      margin-bottom: 10px;
+      }     
       
-      /* For 506px */
-      @media screen and (max-width: 506px) {
-      .header_text h1 {
-      font-size: 24px;
       }
-      .header_text h2 {
-      font-size: 24px;
-      }
-      .header_text {
-      border: unset;
-      }
-      }
-      
-      /* For 420px */
-      @media screen and (max-width: 420px){
-      
+
+      /* For 512px */
+
+      @media screen and (max-width: 512px) {
+
       /* For Sign Up Form  */
       .sign_up_form {
       display: -webkit-box;
@@ -454,7 +271,45 @@
       width: 95%;
       height: 40px;
       }
+
+      /* For client list */
+      .our_clients_content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: unset;
+      -ms-flex-pack: unset;
+      justify-content: unset;
+      }
+      .our_clent {
+      width: 33%;
+      margin-top: 30px;
+      padding: 10px;
+      }
+
+      }
       
+      /* For 506px */
+
+      @media screen and (max-width: 506px) {
+      .header_text h1 {
+      font-size: 24px;
+      }
+      .header_text h2 {
+      font-size: 24px;
+      }
+      .header_text {
+      border: unset;
+      }
+
+      }
+      
+      /* For 420px */
+
+      @media screen and (max-width: 420px){
+
       /* Work Section */
       .work_body_bg {
       width: 100%;
@@ -462,18 +317,7 @@
       .work_icon_white_bg {
       margin: auto;
       }
-      
-      /* Travel Section */
-      .travel_body {
-      left: 26%;
-      }
-      .travel_content_header_text {
-      left: 30%;
-      }
-      .travel_text {
-      width: 60%;
-      }
-      
+
       /* For Client Lists */
       .our_clent {
       width: 33%;
@@ -520,26 +364,6 @@
       }
       .pavliv_img, .john_img {
       text-align: center;
-      }
-      
-      /* Gallery Section */
-      .gallery_img img {
-      width: 17em;
-      height: 17em;
-      }
-      
-      }
-      
-      /* For 320px */
-      @media screen and (max-width: 320px) {
-      .travel_content_header_text {
-      left: 18%;
-      }
-      .travel_body {
-      left: 19%;
-      }
-      .travel_text {
-      width: 74%;
       }
       
       }
