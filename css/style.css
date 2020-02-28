@@ -519,6 +519,36 @@ p.sign_up_number input::-ms-input-placeholder {
         font-size: 16px;
 }
 
+p.sign_up_name input::-webkit-input-placeholder,
+p.sign_up_number input::-webkit-input-placeholder {
+        color: #cccccc;
+        font-size: 16px;
+}
+
+p.sign_up_name input:-moz-placeholder,
+p.sign_up_number input:-moz-placeholder {
+        color: #cccccc;
+        font-size: 16px;
+}
+
+p.sign_up_name input::-moz-placeholder,
+p.sign_up_number input::-moz-placeholder {
+        color: #cccccc;
+        font-size: 16px;
+}
+
+p.sign_up_name input:-ms-input-placeholder,
+p.sign_up_number input:-ms-input-placeholder {
+        color: #cccccc;
+        font-size: 16px;
+}
+
+p.sign_up_name input::-ms-input-placeholder,
+p.sign_up_number input::-ms-input-placeholder {
+        color: #cccccc;
+        font-size: 16px;
+}
+
 p.sign_up_name input::placeholder,
 p.sign_up_number input::placeholder {
         color: #cccccc;
